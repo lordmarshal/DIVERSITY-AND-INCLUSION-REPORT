@@ -1,24 +1,42 @@
-# DIVERSITY-AND-INCLUSION-REPORT
-Navigating Diversity and Inclusion:
+# Gender Diversity and Inclusion Analysis (PwC Switzerland Virtual Experience)
 
-In a workforce of 500 employees, comprising 295 men and 205 women, average ratings reveal a slight gender disparity—men at 2.06, women at 1.89. This indicates a potential need for equal opportunity and an inclusive work environment.
-Turnover rates, with 66 new hires and a 9.40% resignation rate (47 employees), prompt a closer look into retention strategies and engagement opportunities.
-Encouragingly, promotions rose from 36 in FY 2020 to 51 in FY 2021. However, a nuanced analysis of gender distribution in promotions is essential for evaluating true gender equity in career advancement.
+**Tools:** Power BI · **Program:** PwC Switzerland Power BI virtual experience, delivered through Forage · **Data:** HR records for 500 employees of a fictional company, FY2020 and FY2021
 
-A Closer Look at Promotions, Resignations, and New Hires
+![Diversity and inclusion dashboard](images/dashboard_page1.png)
 
-In the pursuit of workplace equity, a detailed examination of gender dynamics reveals intriguing patterns across promotions, resignations, and new hires within the organization.
+## Business question
 
-Promotions:
-In FY 2020, promotions showed a disparity, with 22% female and 78% male, but this shifted positively in FY 2021 to 35% female and 65% male. This progression indicates a noteworthy stride toward gender balance in career advancement.
+The HR leadership team wanted to know whether the company was making progress on **gender balance** across hiring, promotion, performance ratings and turnover, and where to focus next.
 
-Resignations:
-The resignation landscape displays a slight skew, with 45% female resignations compared to 55% male. Understanding the reasons behind these departures is crucial for targeted retention efforts.
+## What I did
 
-New Hires:
-New hires present a more balanced picture, with 52% female and 48% male. This showcases an inclusive approach to talent acquisition, promoting gender diversity from the outset.
+* Prepared and modelled the HR data in Power BI
+* Built measures for headcount, hires, promotions, resignations, turnover rate and average performance rating, split by gender, age group and job level
+* Designed a dashboard covering hiring, promotion, turnover and performance
 
-Part-Time Workers:
-A closer examination of part-time workers, constituting 7% of the workforce, unveils a gender disparity. Of the part-time employees, 94% are female (33) and 6% are male (2). Addressing this gender skew in part-time roles may contribute to overall workplace equity.
+## Key findings
 
-In conclusion, the organization's commitment to gender diversity is evident in the positive shift in promotions and the balanced approach to new hires. However, the disparities in part-time roles and resignations signal areas for further exploration and potential improvement in fostering an inclusive and equitable workplace for all employees.
+| Area | Finding |
+|---|---|
+| Workforce | 500 employees: **295 men (59%) and 205 women (41%)** |
+| Performance ratings | Men averaged **2.06**, women **1.89**, a gap worth reviewing for bias |
+| Promotions | Rose from **36 in FY2020 to 51 in FY2021**; the female share improved from **22% to 35%** |
+| New hires | **66** hires, **52% women**: balanced recruitment |
+| Turnover | **47 resignations (9.4%)**: 55% men, 45% women |
+| Part time roles | **35** part time employees (7%), of whom **94% are women** (33 of 35) |
+
+## Recommendations
+
+1. **Review the performance rating process** for consistency between men and women.
+2. **Keep the promotion trend going**, with clear criteria and tracking by gender.
+3. **Understand the part time imbalance:** check whether part time roles limit career progression, and offer flexible work to all.
+4. **Run exit interviews** to understand resignation drivers.
+
+![Dashboard page 2](images/dashboard_page2.png)
+
+## Files
+
+| File | Contents |
+|---|---|
+| `DIVERSITY AND INCLUSION REPORT.pdf` | Dashboard pages |
+| `images/` | Dashboard images |
